@@ -8,11 +8,13 @@ const $button = document.querySelector('.icon')
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
                 x.className += " responsive";
-                $header.style['background-color'] = "rgba(8, 5, 63, 0.74)";
+                $header.style['background-color'] = "rgba(55, 53, 91, 0.9)";
                 $logo.style.filter = "invert(100%)";
+                $header.style['padding-bottom'] = "100%";
             } else {
                 x.className = "topnav";
                 $header.style['background-color'] = "unset";
                 $logo.style.filter = "invert(0%)";
+                $header.style['padding-bottom'] = "0%";
             }
         }
