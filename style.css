@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+}
+
+.icon {
+    display: none;
+
+}
+nav{
+    display:flex;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    padding: 12px 17px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-right: 23px;
+    font-weight: 500;
+}
+
+nav a:first-child{
+    display:none;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 75, 75);
+    -webkit-box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+    -moz-box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+    box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+}
+
+.openbtn{
+    display:none;
+    cursor: pointer;
+}
+
+
+
+
+@media all and (max-width: 800px){
+
+.header{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.openbtn{
+    display:block;
+    font-size: 24px;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 15, 39, 0.925);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+}
+.sidenav a:first-child{
+    display:block;
+    color: #ebebeb;
+    padding:0px 6px;
+    margin: 20px auto 20px auto;
+    
+}
+.sidenav a:first-child:hover{
+    display:block;
+    color: black;
+    border-radius: 2px;
+    
+}
+
+.sidenav a:not(:first-child){
+    border-bottom:solid 1px rgba(255, 255, 255, 0.548);
+    border-radius: 0;
+    margin:0 20px 0 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ebebeb;
+    transition: 0.1s;
+    text-align: center;
+}
+
+.sidenav a:hover {
+  background-color: #ebebeb;
+  color:black;
+  border-radius: 0;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+}
+
+
+
+/*----------------*/
+
+section{
+    padding:25px
+}
+.section1{
+    background-color: aquamarine;
+}
+.section2{
+    background-color: rgb(247, 210, 4);
+}
