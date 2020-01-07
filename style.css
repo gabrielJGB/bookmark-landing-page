@@ -228,7 +228,7 @@ nav{
 
 .section2{
     
-    margin-bottom:600px;
+    margin-bottom:140px;
     margin-top:60px;
 }
 
@@ -335,15 +335,20 @@ nav{
         margin:auto;
         padding-left: 5%;
     }
+    .tab-button{
+        margin:30px auto 0 auto;
+    }
     .tab-image{
         width:75%;
     }
     .tab-title{
-        font-size: 25px;
+        font-size: 20px;
         margin-top:20px;
+        text-align: center;
     }
     .tab-text{
         font-size: 15px;
+        text-align: center;
     }
     .tab-selector{
         border-bottom: solid 1px rgb(146, 146, 146);
@@ -352,5 +357,81 @@ nav{
     .tab-container{
         border:0;
     }
+    .section2{
+        margin-bottom:-30px;
+    }
     
+}
+
+/*------INSTLALL--------*/
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    margin:auto;
+    background-color: rgb(250, 250, 250);
+    align-items:center;
+    padding: 40px 0 20px 0;
+    border-radius: 10px; 
+    -webkit-box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+    -moz-box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+    box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+}
+
+.logo{
+    width: 30%;
+    height: auto;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    margin:60px auto;
+    width: fit-content;
+}
+
+.card-title{
+    margin-top:50px;
+    font-size:20px;
+    font-weight: 700;
+}
+
+.version{
+    margin-top: 20px;
+    font-size:13px;
+    color:rgb(107, 107, 107);
+    font-size: 15px;
+}
+.dots{
+    margin-top: 40px;
+    width:150px;
+}
+.install-button{
+    
+    text-align: center;
+    width: 50%;
+    margin-top:20px;
+    padding:14px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    -webkit-box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+    -moz-box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+    box-shadow: -3px 9px 14px -4px rgba(94, 94, 94, 0.4);
+    cursor: pointer;
+    background-color: #5168df;
+    color: #fff;
+    text-decoration: none;
+}
+.install-button:hover{
+    background-color: rgb(33, 56, 179);
+}
+
+@media all and (max-width:800px){
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width:70%;
+        margin-bottom:60px;
+    }
 }
