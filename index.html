@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 
 </head>
- 
+
 <body>
     <header class="header">
         <a href="#" class="logo"><img src="images/logo-bookmark.svg" alt=""></a>
@@ -19,34 +19,87 @@
 
         <nav id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            
+
             <a href="#">FEATURES</a>
             <a href="#">PRICING</a>
             <a href="#">CONTACT</a>
             <a href="#">LOGIN</a>
-          </nav>
+        </nav>
 
     </header>
 
     <section class="section1">
-      <div class="izquierda">
-        <div class="title">A Simple Bookmark Manager</div>
-        <br>
-        <div class="text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free</div>
-        <br>
-      <div class="buttons">
-          <div class="chrome">Get it on Chrome</div>
-          <div class="firefox">Get it on Firefox</div>
-      </div>
-    </div>
-      <div class="derecha">
+        <div class="izquierda">
+            <div class="title">A Simple Bookmark Manager</div>
+            <br>
+            <div class="text">A clean and simple interface to organize your favourite websites. Open a new browser tab
+                and see your sites load instantly. Try it for free</div>
+            <br>
+            <div class="buttons">
+                <div class="chrome">Get it on Chrome</div>
+                <div class="firefox">Get it on Firefox</div>
+            </div>
+        </div>
+        <div class="derecha">
             <img src="images/illustration-hero.svg" alt="">
-      </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="title-section2">Features</div>
+        <div class="text-section2">Our aim is to make it quick and easy for you to access your favourite websites.
+            Your bookmarks sync between your devices so you can access them on the go.</div>
+
+        <div class="tab-container">
+            <a class="tab-selector tab-1" href="javascript:void(0)" onclick="tabSelector('1')">
+                <div class="simple-bookmarking">Simple Bookmarking</div>
+            </a>
+            <a class="tab-selector tab-2" href="javascript:void(0)" onclick="tabSelector('2')">
+                <div class="speedy-searching">Speedy Searching</div>
+            </a>
+            <a class="tab-selector tab-3" href="javascript:void(0)" onclick="tabSelector('3')">
+                <div class="easy-sharing">Easy Sharing</div>
+            </a>
+        </div>
+
+        <div class="tab tab1">
+            <img class="tab-image" src="images/illustration-features-tab-1.svg" alt="">
+            
+            <div class="tab-info">
+                <div class="tab-title">Bookmark in one click</div>
+                <div class="tab-text">Organize your bookmarks however you like. Our simple drag-and-drop interface
+                    gives you complete control over how you manage your favourite sites.</div>
+                <div class="tab-button">More info</div>
+            </div>
+        </div>
+
+        <div class="tab tab2" style="display:none">
+            <img class="tab-image" src="images/illustration-features-tab-2.svg" alt="">
+            
+            <div class="tab-info">
+                <div class="tab-title">Intelligent search</div>
+                <div class="tab-text">Our powerful search feature will help you find saved sites in no time at all. 
+                    No need to trawl through all of your bookmarks.</div>
+                <div class="tab-button">More info</div>
+            </div>
+        </div>
+
+        <div class="tab tab3" style="display:none">
+            <img class="tab-image" src="images/illustration-features-tab-3.svg" alt="">
+            
+            <div class="tab-info">
+                <div class="tab-title">Share your bookmarks</div>
+                <div class="tab-text">Easily share your bookmarks and collections with others. Create a shareable 
+                    link that you can send at the click of a button.</div>
+                <div class="tab-button">More info</div>
+            </div>
+        </div>
 
     </section>
 
 
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
