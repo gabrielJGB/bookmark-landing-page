@@ -409,7 +409,7 @@ nav{
 .install-button{
     
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin-top:20px;
     padding:14px 10px;
     border-radius: 5px;
@@ -427,6 +427,9 @@ nav{
 }
 
 @media all and (max-width:800px){
+    .install-button{
+        width:70%;
+    }
     .cards{
         flex-direction: column;
     }
@@ -434,4 +437,65 @@ nav{
         width:70%;
         margin-bottom:60px;
     }
+}
+.text1{
+    margin: 40px auto;
+    padding-top: 40px;
+
+}
+.text2{
+    margin: 40px auto 40px auto;
+    font-size: 40px;
+    width:40%;
+    
+}
+.contact{
+    background-color: #5266df;
+    color:white;
+    text-align: center;
+}
+.formu{
+    margin:auto;
+    padding-bottom:40px;
+    width:60%;
+}
+input{
+    padding:10px;
+    border-radius: 5px;
+    width:50%;
+    margin:auto;
+    border:0;
+
+}
+.email-button{
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(218, 63, 63);
+    color:#fff;
+    font-size: 12px;
+    font-weight: 700;
+    border:0;
+}
+
+.footer{
+    background-color:#242946;
+    height: 80px;
+}
+
+@media all and (max-width:800px){
+    .text2{
+        width:90%;
+        font-size: 22px;
+    }
+    .formu{
+        width:90%;
+    }
+    input{
+        width:90%;
+        margin-bottom:20px;
+    }
+    .email-button{
+        width:97%;
+    }
+
 }
