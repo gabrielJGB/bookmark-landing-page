@@ -67,10 +67,7 @@ nav a:hover {
 .openbtn{
     display:block;
     font-size: 25px;
-    text-shadow:0 0 20px  #000;
-}
-.openbtn:hover{
-    text-shadow:0 0 30px  rgb(167, 167, 167);
+    text-shadow:0 0 17px  #000;
 }
 
 nav{
