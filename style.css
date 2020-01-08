@@ -387,7 +387,7 @@ nav{
 .cards{
     display:flex;
     flex-direction: row;
-    margin:60px auto;
+    margin:60px auto 0 auto;
     width: fit-content;
 }
 
@@ -399,9 +399,9 @@ nav{
 
 .version{
     margin-top: 20px;
-    font-size:13px;
+    font-size:15px;
     color:rgb(107, 107, 107);
-    font-size: 15px;
+
 }
 .dots{
     margin-top: 40px;
@@ -506,3 +506,85 @@ input{
     }
 
 }
+
+/* --------------------- */
+
+.accordion {
+    background-color: rgb(241, 241, 241);
+    color: rgb(44, 44, 44);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: solid 1px rgb(180, 180, 180);
+  }
+
+  
+  .active, .accordion:hover {
+    color:rgb(231, 41, 41);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+.faq{
+    width:50%;
+    margin:auto;
+}
+
+.panel p{
+    color:rgb(107, 107, 107);
+    margin:20px 0 20px 0;
+    line-height: 30px;
+}
+.title-section4{
+    
+    margin:auto;
+    width: max-content;
+    font-size:40px;
+    margin-bottom:20px;
+    margin-top: 60px;
+    
+}
+.text-section4{
+    width:50%;
+    text-align: center;
+    margin:auto;
+    color:rgb(107, 107, 107);
+    font-size: 19px;
+    line-height: 25px;
+    
+}
+section img{
+    float: right;
+}
+
+@media all and (max-width:800px){
+    .faq{
+        width:95%;
+    }
+    .title-section4{
+        font-size: 25px;
+         width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .text-section4{
+        font-size: 15px;
+        width: 85%; 
+    }
+    
+}
+
+  /* --------------------- */
+
