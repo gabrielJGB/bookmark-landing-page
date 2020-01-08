@@ -432,6 +432,7 @@ nav{
     }
     .cards{
         flex-direction: column;
+        width:100%;
     }
     .card{
         width:70%;
@@ -471,10 +472,15 @@ input{
     padding:10px;
     border-radius: 5px;
     background-color: rgb(218, 63, 63);
+    cursor:pointer;
     color:#fff;
     font-size: 12px;
     font-weight: 700;
     border:0;
+    
+}
+.email-button:hover{
+    background-color: rgb(179, 54, 54);
 }
 
 .footer{
